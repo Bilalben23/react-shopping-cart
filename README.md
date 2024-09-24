@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Shopping Cart React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a simple yet functional shopping cart built with React, utilizing data fetched from an external API. The application offers a smooth user experience with dynamic product management, including adding items to the cart, adjusting quantities, and viewing the cart's total. The UI is designed using **Tailwind CSS** for a clean, responsive layout, and **Redux Toolkit** is employed for efficient global state management.
 
-## Available Scripts
+## Features
+- **Product Listing**: Products are fetched from an external API and displayed in a responsive grid layout.
+- **Add to Cart**: Users can add products to their shopping cart directly from the product list.
+- **Cart Management**: Users can view their cart, including all added products, and see the total cost.
+- **Quantity Adjustment**: Users can increase or decrease the quantity of each product in their cart.
+- **Skeleton Loaders**: During the loading phase, skeletons are displayed to indicate that content is being fetched, enhancing the user experience.
 
-In the project directory, you can run:
+## Technologies Used
+- **React**: For building the user interface.
+- **Redux Toolkit**: To manage global state and synchronize data across the application.
+- **Tailwind CSS**: For responsive, utility-first CSS design.
+- **API Integration**: To fetch product data and display it dynamically.
 
-### `npm start`
+## Key Learnings
+During the development of this project, I gained significant experience in:
+- **API Calls**: Fetching data from external sources and displaying it effectively in the UI.
+- **State Management**: Utilizing `useState` and `useEffect` hooks alongside **Redux Toolkit** for managing application state globally.
+- **UI Design**: Designing a clean, responsive UI using **Tailwind CSS**.
+- **Skeleton Loading States**: Implementing skeleton loaders to improve user experience during data fetching.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Preview
+Here is a preview of the project in action, showcasing the UI and key features:
+- **Product List**: Displaying products fetched from the API with "Add to Cart" buttons.
+- **Cart View**: Viewing added products, adjusting quantities, and seeing the total cost.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Visit the App
+You can visit and interact with the shopping cart app here: [Shopping Cart App](https://bilalben23.github.io/react-shopping-cart/)
 
-### `npm test`
+<img width="947" alt="Screenshot 2024-09-24 171329" src="https://github.com/user-attachments/assets/e4e009e6-9120-447c-ba76-d32c9d37a3eb">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
