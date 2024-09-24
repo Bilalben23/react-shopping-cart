@@ -21,7 +21,6 @@ During the development of this project, I gained significant experience in:
 - **API Calls**: Fetching data from external sources and displaying it effectively in the UI.
 - **State Management**: Utilizing `useState` and `useEffect` hooks alongside **Redux Toolkit** for managing application state globally.
 - **UI Design**: Designing a clean, responsive UI using **Tailwind CSS**.
-- **Skeleton Loading States**: Implementing skeleton loaders to improve user experience during data fetching.
 
 ## Preview
 Here is a preview of the project in action, showcasing the UI and key features:
